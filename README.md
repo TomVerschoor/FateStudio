@@ -1,1 +1,1 @@
-# Fate-Studio
+# FateStudio
