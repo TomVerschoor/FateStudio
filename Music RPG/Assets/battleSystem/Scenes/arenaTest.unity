@@ -401,6 +401,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2075483259084878663, guid: 0fbddbaf7fd354a40b46d24019a6ce9c,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6592389882979915052, guid: 0fbddbaf7fd354a40b46d24019a6ce9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -478,11 +483,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1603273192}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46fdb6b523cb70548961eebee86d3c3d, type: 3}
+  m_Script: {fileID: 11500000, guid: d6a165700474fb64290315565a4a909f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
-  theRB: {fileID: 0}
+  maxHP: 100
 --- !u!1001 &1760689733
 PrefabInstance:
   m_ObjectHideFlags: 0
