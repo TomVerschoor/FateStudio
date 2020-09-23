@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class CharacterStats : MonoBehaviour
 {
-    public int maxHP = 100;
+    public int maxHP;
     public int currentHP { get; private set; }
 
     public Stat danage;
 
-    private void Awake()
+    public void initiate(int maxHP)
     {
+        this.maxHP = maxHP;
         currentHP = maxHP;
     }
 

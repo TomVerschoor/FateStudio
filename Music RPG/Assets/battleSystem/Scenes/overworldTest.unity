@@ -139,10 +139,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 9431343}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6a165700474fb64290315565a4a909f, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c570fa7cc0b6ec438a35fea8dbfaf81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,6 +634,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 773290913243199564, guid: 18438b7e048ae1948b5712a1e2550160,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3931706321975684945, guid: 18438b7e048ae1948b5712a1e2550160,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -642,7 +647,7 @@ PrefabInstance:
     - target: {fileID: 3931706321975684945, guid: 18438b7e048ae1948b5712a1e2550160,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0.52
       objectReference: {fileID: 0}
     - target: {fileID: 3931706321975684945, guid: 18438b7e048ae1948b5712a1e2550160,
         type: 3}
@@ -762,6 +767,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerOverworld
+      objectReference: {fileID: 0}
+    - target: {fileID: 7622479870395460376, guid: 8318c35eaf5a59b4488c9bf3b7e90cba,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8318c35eaf5a59b4488c9bf3b7e90cba, type: 3}
