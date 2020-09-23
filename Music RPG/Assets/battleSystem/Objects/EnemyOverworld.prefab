@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 7223636529153047811}
   - component: {fileID: 3261763875460464680}
   - component: {fileID: 773290913243199564}
+  - component: {fileID: 4050337327458857452}
+  - component: {fileID: 6776737015370169560}
   m_Layer: 0
   m_Name: EnemyOverworld
   m_TagString: Untagged
@@ -91,6 +93,33 @@ SphereCollider:
   m_GameObject: {fileID: 4816479255816245410}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4050337327458857452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4816479255816245410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d40dbcd6353eea0479c4be52176d4aae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newScene: arenaTest
+  objectName: PlayerOverworld
+--- !u!135 &6776737015370169560
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4816479255816245410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
