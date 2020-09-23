@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 7358056960403544853}
   - component: {fileID: 2075483259084878663}
   - component: {fileID: 1520847181729180401}
-  - component: {fileID: -2200605876873913538}
-  - component: {fileID: -6557730321767331435}
+  - component: {fileID: 7622479870395460376}
+  - component: {fileID: -2960919382656155783}
   m_Layer: 0
   m_Name: PlayerBattle
   m_TagString: Untagged
@@ -97,7 +97,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &-2200605876873913538
+--- !u!54 &7622479870395460376
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,7 +113,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-6557730321767331435
+--- !u!114 &-2960919382656155783
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,4 +126,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  theRB: {fileID: -2200605876873913538}
+  theRB: {fileID: 7622479870395460376}
