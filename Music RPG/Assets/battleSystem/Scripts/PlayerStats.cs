@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyStats : CharacterStats
+public class PlayerStats : CharacterStats
 {
     void Awake()
     {
-        initiate(50);
+        initiate(100);
     }
+
 }
