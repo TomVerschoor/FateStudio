@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6592389882979915052}
   - component: {fileID: 7358056960403544853}
   - component: {fileID: 2075483259084878663}
-  - component: {fileID: 1520847181729180401}
-  - component: {fileID: 7622479870395460376}
-  - component: {fileID: -2960919382656155783}
+  - component: {fileID: -6556236855695063926}
+  - component: {fileID: 7557810787762835034}
+  - component: {fileID: -9000932470460034316}
   m_Layer: 0
   m_Name: PlayerBattle
   m_TagString: Untagged
@@ -84,20 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &1520847181729180401
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7607868562883110185}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &7622479870395460376
+--- !u!54 &-6556236855695063926
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,9 +98,22 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &-2960919382656155783
+--- !u!135 &7557810787762835034
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7607868562883110185}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: -1, z: 0}
+--- !u!114 &-9000932470460034316
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,8 +122,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7607868562883110185}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46fdb6b523cb70548961eebee86d3c3d, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c9aaea535649a84bb44563dc12d7dcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  theRB: {fileID: 7622479870395460376}
+  moveSpeed: 10
+  theRB: {fileID: -6556236855695063926}
+  jumpForce: 10
+  cam: {fileID: 0}
+  turnsmooth: 100

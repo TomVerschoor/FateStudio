@@ -7,7 +7,7 @@ public class CharacterStats : MonoBehaviour
     public int maxHP;
     public int currentHP { get; private set; }
 
-    public Stat danage;
+    public Stat damage;
 
     public void initiate(int maxHP)
     {
