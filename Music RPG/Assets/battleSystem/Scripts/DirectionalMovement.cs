@@ -10,7 +10,9 @@ public class DirectionalMovement : MonoBehaviour
     public Transform cam;
     public float turnsmooth = 0.1f;
     float turn;
-
+    private Vector3 direction;
+    private float targetAngle;
+    private float angle;
 
     // Start is called before the first frame update
     void Start()
@@ -26,9 +28,9 @@ public class DirectionalMovement : MonoBehaviour
 
     void Update()
     {
-        Vector3 direction = new Vector3(Input.GetAxis("Horizontal") * moveSpeed, theRB.velocity.y, Input.GetAxis("Vertical") * moveSpeed);
-        float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
-        float angle = Mathf.SmoothDampAngle(cam.eulerAngles.y, targetAngle, ref turn, turnsmooth);
+        direction = new Vector3(Input.GetAxis("Horizontal") * moveSpeed, theRB.velocity.y, Input.GetAxis("Vertical") * moveSpeed);
+        targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
+        angle = Mathf.SmoothDampAngle(cam.eulerAngles.y, targetAngle, ref turn, turnsmooth);
         theRB.velocity = Quaternion.Euler(0,angle, 0) * direction;
         
 

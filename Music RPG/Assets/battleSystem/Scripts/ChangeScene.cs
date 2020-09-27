@@ -13,10 +13,7 @@ public class ChangeScene : MonoBehaviour
         Debug.Log("Collision detected");
         if (other.name == objectName)
         {
-        SceneManager.LoadScene(newScene, LoadSceneMode.Single);
+            SceneManager.LoadScene(newScene, LoadSceneMode.Single);
         }
-        
     }
-
-
 }
