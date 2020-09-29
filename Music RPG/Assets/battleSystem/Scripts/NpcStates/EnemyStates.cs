@@ -8,30 +8,47 @@ public class EnemyStates : MonoBehaviour
 {
     public float lookRadius = 10f;
 
-    Transform target;
-    NavMeshAgent agent;
+    private Transform target;
+    private NavMeshAgent agent;
+    private bool playerInRange;
     
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {   
         target = GameObject.Find("PlayerOverworld").transform;
         agent = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         float distance = Vector3.Distance(target.position, transform.position);
+        playerInRange = (distance <= lookRadius);
 
-        if (distance <= lookRadius)
+        if (playerInRange)
         {
-            agent.SetDestination(target.position);
+            Chase();
+        }
+
+        else
+        {
+            Idle();
         }
     }
 
-    void OnDrawGizmosSelected() 
+    private void OnDrawGizmosSelected() 
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, lookRadius);
+    }
+
+    private void Idle()
+    {
+
+    }
+
+    private void Chase()
+    {
+        agent.SetDestination(target.position);
     }
 }
