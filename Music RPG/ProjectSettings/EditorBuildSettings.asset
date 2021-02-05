@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen/TitleScreen.unity
+    guid: 3ea2d75248565f541a3f721cc7238da4
+  - enabled: 1
+    path: Assets/Scenes/ForestArena/ForestArena.unity
+    guid: a3ab6f94d0b6c1f458514cc3b6230872
+  - enabled: 1
+    path: Assets/Scenes/CityArena/CityArena.unity
+    guid: 06b55f858a98b694aa9cdfc4b9fc15a4
+  - enabled: 1
+    path: Assets/Scenes/BossRoom/BossBattle.unity
+    guid: e5e08244f4786964c8d26d8f8fe77681
+  - enabled: 1
+    path: Assets/Scenes/Tutorial/TutorialArena.unity
+    guid: 16fa43d118f8cfb49995ac40e6005b04
+  - enabled: 1
+    path: Assets/Scenes/CityNight/CityNight.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/CityDay/CityDay.unity
+    guid: e2db290d2f0b85f428f0dbabb306d13a
+  - enabled: 1
+    path: Assets/Scenes/PartyRoom/PartyRoom.unity
+    guid: 898d07da78f866f4bbd0ddfed38418e0
+  - enabled: 1
+    path: Assets/Scenes/ForestArea/ForestArea.unity
+    guid: d2632e6e31b67f24cb18e5fa8ec70d19
+  - enabled: 1
+    path: Assets/Scenes/ApartmentRoom/AparmentRoom.unity
+    guid: bbba10cf8a1af6f4ea6ef637ba1cefdf
+  - enabled: 1
+    path: Assets/Scenes/ApartmentRoom/Cutscene/CutsceneApartment.unity
+    guid: 6ac9a921fd4e1544db5bc7e2fe49ec3e
+  - enabled: 1
+    path: Assets/Scenes/CityNight/Cutscene Night/TrainEscape.unity
+    guid: de92103fc63d3b0439ea1eae9d2b9c87
+  - enabled: 1
+    path: Assets/Scenes/PartyRoom/Cutscene/FirstCutscene/FirstCutsceneParty.unity
+    guid: a67f968e75e21964dade787878026065
+  - enabled: 1
+    path: Assets/Scenes/ForestArea/ForestEnemy.unity
+    guid: cd5d90a68abfcd14bb8cd18105c13018
+  - enabled: 1
+    path: Assets/Scenes/CityReturn/CityReturn.unity
+    guid: ce66d6b7dbb8ce4419e0ef335667e9d9
+  - enabled: 1
+    path: Assets/Scenes/CityReturn/Cutscenes/Cutscene 2/CaptureCutscene.unity
+    guid: 8f2941a51b5a1a9438931bcc00023e52
+  - enabled: 1
+    path: Assets/Scenes/CityReturn/Cutscenes/Cutscene 3/CaptureCutscene2.unity
+    guid: 48d27b3e1093609408c2cf827f7dd27e
+  - enabled: 1
+    path: Assets/Scenes/CityReturn/Cutscenes/Cutscene 1/TrainEntrance.unity
+    guid: f83f7c75e1c4ddf419bfb9f437c9846d
+  - enabled: 1
+    path: Assets/Scenes/BossRoom/BossIntroCutscene/BossIntro.unity
+    guid: ae82304031d21d84095adab69b892563
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen/Endscreen.unity
+    guid: 71817c47801394b45843b44bfdb8a8a3
+  - enabled: 1
+    path: Assets/Scenes/Tutorial/TutorialRoom.unity
+    guid: 2005b4a3724506f49aff50f8e2e36024
+  - enabled: 1
+    path: Assets/Scenes/ForestArea/Cutscene 3/RecoverFadein.unity
+    guid: 587d5b89a5ff1ed468f6a205167ec9c8
+  - enabled: 1
+    path: Assets/Scenes/ForestArea/ForestRecovered.unity
+    guid: 8d01a74f115103d4bb483f351c5585e7
+  - enabled: 1
+    path: Assets/Scenes/ForestArea/Cutscene 2/RecoverFadeout.unity
+    guid: 434a3e9f392fc294b89ba821ef9902fa
+  - enabled: 1
+    path: Assets/Scenes/ForestArea/Cutscene 1/CrystalCutscene.unity
+    guid: a21794e9e481e0d4f90aed5086565277
+  - enabled: 1
+    path: Assets/Scenes/ForestArea/ForestEnemyClear.unity
+    guid: 026a23069bc67c4498124bf1701c2866
+  - enabled: 1
+    path: Assets/Scenes/ForestArea/Cutscene 4/ForestEntry.unity
+    guid: b3308d413d796cd4cb3ea265a69d0986
+  - enabled: 1
+    path: Assets/Scenes/CityDay/Cutscene Door/DoorExit.unity
+    guid: 0c6194081f067994e83cd87c7c5ebbe3
+  - enabled: 1
+    path: Assets/Scenes/PartyRoom/Cutscene/SecondCutscene/SecondCutsceneParty.unity
+    guid: c8802e08b18e92248b8741dbb3b99b39
+  - enabled: 1
+    path: Assets/Scenes/BossRoom/Cutscene End/Ending.unity
+    guid: b726bfe8a0481e241bf63d7a88fd2b99
+  - enabled: 1
+    path: Assets/Scenes/PartyRoom/PartyRoomAfterSpeach.unity
+    guid: 538b657eecc27dc43839356ec60f31db
+  - enabled: 1
+    path: Assets/Scenes/PartyRoom/Cutscene/ThirdCutscene/ThirdCutscene.unity
+    guid: 1adf2cdaab286254ba3031487b13d95f
+  - enabled: 1
+    path: Assets/Scenes/Tutorial/TutorialAfterBattle.unity
+    guid: 00d53e3661db66241b85908b15157723
+  - enabled: 1
+    path: Assets/Scenes/ForestArea/ForestElfTalk.unity
+    guid: 6f5749695b8d146428f0bb236f302f0f
+  - enabled: 1
+    path: Assets/Scenes/ForestArea/TextForestRecovered.unity
+    guid: 065cf427d2d9939498014ccbd3cf9a7f
+  - enabled: 1
+    path: Assets/Scenes/BossRoom/BossIntroCutscene/Boss Text Cutscene.unity
+    guid: e4b6af0b13a675546a735113c73d17e7
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen/Introvideo/IntroVideo.unity
+    guid: e38a6e87a9659c84eb593bd534ee1c29
+  m_configObjects: {}
