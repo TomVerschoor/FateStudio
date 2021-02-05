@@ -42,7 +42,7 @@ public class MainMenu : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         PlayerPrefs.DeleteAll();
-        SceneManager.LoadScene("IntroVideo", LoadSceneMode.Single);
+        SceneManager.LoadScene("CutsceneApartment", LoadSceneMode.Single);
     }
     
     public void Options()
