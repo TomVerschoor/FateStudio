@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Workspace" id="{a4e53a95-cce5-495d-87eb-162b5c8bb073}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../../Source/Repos/Music RPG/Music RPG/FMODAssets</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{554cda60-4a19-4412-b095-f09734e07084}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{36035fc5-bea4-4288-8e96-c1f67b9298bf}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{2c3dd874-22a4-4a5b-9a69-681f1b313461}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{c0a477bd-63a8-4b46-8240-970b7168bc23}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{a714ea94-27ba-4486-9ff2-dbbb6bea2d7d}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{e2275065-4195-4be9-8742-82cb9fed9ba8}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{2f1fa5f1-3b2e-427b-8952-69fffb8a5634}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{0d4efe6a-42ff-494c-9d43-d987c272134f}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{673e9ded-fe39-466f-ab39-b1f50af97830}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{0b93178a-7643-410f-a07f-f5f5d6e8f6f7}</destination>
+		</relationship>
+	</object>
+</objects>
